@@ -6,7 +6,7 @@ Welcome! This course teaches non-technical professionals to use Claude Code for 
 
 **First time here?** See [DOWNLOAD-INSTRUCTIONS.md](DOWNLOAD-INSTRUCTIONS.md) for step-by-step setup guidance.
 
-Already set up? Open the **workspace/** folder in Cursor, launch Claude Code, and type `start-module-0`.
+Already set up? Open the **workspace/** folder in VS Code, Antigravity or Cursor, launch Claude Code, and type `start-module-0`.
 
 ---
 
@@ -14,7 +14,7 @@ Already set up? Open the **workspace/** folder in Cursor, launch Claude Code, an
 
 This package contains everything you need:
 
-📁 **workspace/** - Your project folder (open this in Cursor)
+📁 **workspace/** - Your project folder (open this in VS Code, Antigravity or Cursor)
 📚 **lessons/** - Interactive lesson scripts for each module
 ✍️ **exercises/** - Practice exercises to reinforce learning
 
