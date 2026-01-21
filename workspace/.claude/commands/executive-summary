@@ -1,0 +1,236 @@
+# Skill: Executive Summary Generator
+
+## What This Does
+Creates concise, leadership-ready executive summaries from lengthy documents, projects, or analyses.
+
+## When to Use
+- Presenting complex work to executives
+- Creating one-pagers for leadership review
+- Distilling lengthy reports into key points
+- Preparing for executive meetings
+- Board presentations
+- Investor updates
+
+## How It Works
+Takes detailed content and distills it into a clear, concise summary that busy executives can absorb in 2-3 minutes, focusing on:
+- **The situation** - Context in 2 sentences
+- **The problem/opportunity** - What matters
+- **The recommendation** - What to do
+- **The impact** - Why it matters
+- **The ask** - What you need from them
+
+## Instructions
+
+Create an executive summary following this battle-tested format:
+
+```markdown
+# Executive Summary: [Project/Topic Name]
+
+**Date:** [Today]
+**Prepared by:** [Name]
+**For:** [Executive/audience]
+
+---
+
+## The Bottom Line
+[1-2 sentences: The single most important thing they need to know]
+
+**Recommendation:** [Clear, specific action or decision needed]
+
+---
+
+## Situation
+
+[2-3 sentences providing essential context]
+- Current state
+- Why we're discussing this now
+- Relevant background
+
+---
+
+## Problem/Opportunity
+
+**The Issue:**
+[3-4 sentences describing the problem or opportunity]
+
+**Impact if not addressed:**
+- [Quantified negative outcome]
+- [Business risk]
+
+**Opportunity if we act:**
+- [Quantified positive outcome]
+- [Business upside]
+
+---
+
+## Analysis Summary
+
+**Key Findings:**
+1. [Most critical finding with data]
+2. [Second most important finding with data]
+3. [Third finding with data]
+
+**What we evaluated:**
+- [Approach 1] - [Brief pro/con]
+- [Approach 2] - [Brief pro/con]
+
+---
+
+## Recommendation
+
+**Proposed Action:**
+[Clear, specific recommendation in 1 sentence]
+
+**Rationale:**
+1. [Reason backed by data]
+2. [Reason backed by data]
+3. [Reason backed by data]
+
+**Timeline:**
+- [Immediate action + date]
+- [Key milestone + date]
+- [Completion + date]
+
+---
+
+## Resource Requirements
+
+| Category | Amount | Purpose |
+|----------|--------|---------|
+| Budget | $X | [Brief explanation] |
+| Headcount | X people | [Roles needed] |
+| Time | X weeks | [Phase breakdown] |
+
+---
+
+## Success Metrics
+
+**How we'll measure success:**
+- **[Metric 1]:** From [current] to [target] by [date]
+- **[Metric 2]:** From [current] to [target] by [date]
+- **[Metric 3]:** From [current] to [target] by [date]
+
+---
+
+## Risks & Mitigation
+
+| Risk | Likelihood | Impact | Mitigation |
+|------|------------|--------|------------|
+| [Risk 1] | [H/M/L] | [H/M/L] | [How we'll address] |
+| [Risk 2] | [H/M/L] | [H/M/L] | [How we'll address] |
+
+---
+
+## Decision Required
+
+**What we need from you:**
+[Specific ask - approval, feedback, resources, decision between options]
+
+**By when:**
+[Date and reason for timeline]
+
+**Next steps after decision:**
+1. [Immediate action]
+2. [Follow-up action]
+
+---
+
+## Supporting Materials
+
+**Available for review:**
+- [Detailed analysis document]
+- [Financial model]
+- [Competitive research]
+- [Other relevant materials]
+```
+
+### Executive Summary Principles:
+
+1. **Lead with the conclusion** - Don't make them read to find out what you recommend
+2. **Quantify everything** - Use numbers, not adjectives
+3. **One page ideal** - Two pages maximum
+4. **Assume no context** - They're seeing this for first time
+5. **Be clear about the ask** - What decision/resource do you need?
+6. **Show you've thought it through** - Address obvious risks
+
+### Tone Guidelines:
+
+- **Confident, not arrogant** - "We recommend" not "We should obviously"
+- **Data-driven** - Lead with facts, not opinions
+- **Action-oriented** - Focus on decisions, not just information
+- **Respectful of time** - Every sentence earns its place
+- **Clear about unknowns** - Don't hide uncertainty
+
+## Usage Examples
+
+**From Long Report:**
+```
+executive-summary @detailed-analysis.md
+
+Audience: VP of Product
+Focus on: ROI and timeline
+```
+
+**From Multiple Sources:**
+```
+executive-summary
+
+Based on:
+- @customer-research.md
+- @competitive-analysis.md
+- @financial-model.csv
+
+Create 1-page summary for CEO about whether to enter new market
+```
+
+**From Project Update:**
+```
+executive-summary
+
+Project: Q4 Platform Redesign
+Current status: 3 weeks behind schedule
+Need: Additional budget approval
+Audience: CFO
+```
+
+**Quick Brief:**
+```
+executive-summary --brief
+
+[Describe situation in a few sentences]
+
+Create ultra-concise version (1/2 page max)
+```
+
+## Output Variations
+
+**Standard (Default):**
+Full format as shown above (1-2 pages)
+
+**Brief:**
+Situation + Recommendation + Ask only (1/2 page)
+
+**Decision Memo:**
+Focus on options and recommendation
+
+**Status Update:**
+Current state + issues + needs
+
+## Tips for Best Results
+
+1. **Know your audience** - C-suite vs. Director vs. Board have different needs
+2. **Lead with impact** - Start with business outcomes, not technical details
+3. **Quantify everything** - "20% increase" not "significant improvement"
+4. **Be specific about asks** - "Approve $50K" not "Provide resources"
+5. **Show you've thought ahead** - Address obvious questions preemptively
+
+## Common Mistakes to Avoid
+
+❌ **Too much detail** - Save that for appendix
+❌ **Burying the ask** - Put it upfront AND at the end
+❌ **No numbers** - Quantify impact and requirements
+❌ **Vague recommendations** - Be specific and actionable
+❌ **Ignoring risks** - Address concerns proactively
+
+## Output
+A polished, professional executive summary that respects leadership's time while giving them everything needed to make an informed decision.

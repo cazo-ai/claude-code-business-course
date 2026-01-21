@@ -1,0 +1,221 @@
+# Skill: Document Comparison
+
+## What This Does
+Performs side-by-side comparison of two or more documents, highlighting differences, changes, and discrepancies.
+
+## When to Use
+- Comparing contract versions
+- Reviewing proposal changes
+- Analyzing before/after edits
+- Spotting differences in similar documents
+- Tracking document evolution
+- Validating accuracy across versions
+
+## How It Works
+Reads multiple documents and creates a structured comparison showing:
+- **What changed** - Additions, deletions, modifications
+- **What stayed the same** - Common elements
+- **Significance** - Which changes matter most
+- **Discrepancies** - Conflicting information
+- **Recommendations** - Actions based on differences
+
+## Instructions
+
+When comparing documents, provide analysis in this format:
+
+```markdown
+# Document Comparison
+
+**Documents Compared:**
+1. [Document 1 name/path]
+2. [Document 2 name/path]
+
+**Comparison Date:** [Today]
+
+---
+
+## Executive Summary
+[2-3 sentences: Biggest difference + significance]
+
+**Overall Assessment:** [Similar / Significantly Different / Completely Different]
+
+---
+
+## Key Differences
+
+### 1. [Category or Section]
+
+**Document 1:**
+> [Quote or summary of content]
+
+**Document 2:**
+> [Quote or summary of content]
+
+**Significance:** [Why this matters]
+**Recommendation:** [Action to take, if any]
+
+### 2. [Category or Section]
+[Repeat format]
+
+[Continue for all major differences]
+
+---
+
+## Additions
+
+**In Document 2 but not Document 1:**
+- [Item] - [Location]
+- [Item] - [Location]
+
+**Significance:** [What these additions mean]
+
+---
+
+## Deletions
+
+**In Document 1 but not Document 2:**
+- [Item] - [Location]
+- [Item] - [Location]
+
+**Significance:** [Impact of these deletions]
+
+---
+
+## Unchanged Elements
+[List what remained the same - helps establish baseline]
+
+---
+
+## Discrepancies & Conflicts
+[If documents claim different facts or contradict each other]
+
+| Topic | Document 1 | Document 2 | Resolution Needed? |
+|-------|------------|------------|-------------------|
+| [Topic] | [Version 1] | [Version 2] | [Yes/No + why] |
+
+---
+
+## Detailed Change Log
+[Section-by-section breakdown if documents are structured similarly]
+
+### [Section Name]
+- **Changed:** [What changed]
+- **From:** [Original]
+- **To:** [New version]
+
+---
+
+## Recommendations
+
+**Critical Actions:**
+1. [Action based on significant difference]
+
+**Review Needed:**
+- [Item requiring human review/decision]
+
+**No Action Needed:**
+- [Differences that don't require response]
+
+---
+
+## Summary Statistics
+- **Sections compared:** X
+- **Identical sections:** Y
+- **Modified sections:** Z
+- **Major changes:** N
+- **Minor changes:** M
+```
+
+### Comparison Types:
+
+**Version Comparison:**
+Track how a document evolved over time
+
+**Alternative Comparison:**
+Compare two different approaches to same problem
+
+**Accuracy Check:**
+Validate one document against authoritative source
+
+**Consolidation:**
+Identify what to keep from each version
+
+## Usage Examples
+
+**Basic Comparison:**
+```
+compare-docs @proposal-v1.md @proposal-v2.md
+```
+
+**Contract Review:**
+```
+compare-docs @contract-draft.pdf @contract-final.pdf
+
+Focus on: Terms, pricing, deliverables, dates
+```
+
+**Multi-Document:**
+```
+compare-docs @version1.md @version2.md @version3.md
+
+Show evolution across all three versions
+```
+
+**With Specific Focus:**
+```
+compare-docs @old-plan.md @new-plan.md
+
+Only compare: Budget, timeline, and deliverables
+Ignore: Formatting and minor wording changes
+```
+
+**Validation:**
+```
+compare-docs @our-data.csv @official-source.csv
+
+Flag any discrepancies in: Revenue numbers and dates
+```
+
+## Comparison Levels
+
+**High-Level (Default):**
+- Major structural differences
+- Significant content changes
+- Critical discrepancies
+
+**Detailed:**
+- Line-by-line comparison
+- All wording changes
+- Formatting differences
+
+**Critical-Only:**
+- Just the most important changes
+- Business-impacting differences only
+
+## Tips for Best Results
+
+1. **Specify what matters** - Tell me which sections/elements are most important
+2. **Note document type** - Contract vs. proposal vs. data requires different focus
+3. **Mention context** - Why you're comparing helps me prioritize relevance
+4. **Request depth level** - Quick overview vs. thorough comparison
+5. **Identify deal-breakers** - Any changes that would be unacceptable
+
+## Common Use Cases
+
+### Contract Negotiation
+Compare versions to track what changed in negotiations
+
+### Quality Assurance
+Ensure final version matches approved draft
+
+### Competitive Analysis
+Compare your proposal vs. competitor's (if available)
+
+### Version Control
+Understand what changed between revisions
+
+### Data Validation
+Check consistency across data sources
+
+## Output
+A clear, structured comparison that helps you understand exactly what changed and why it matters, saving hours of manual review.

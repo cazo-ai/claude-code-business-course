@@ -1,0 +1,375 @@
+# Skill: Competitive Analysis
+
+## What This Does
+Creates comprehensive competitive analysis from multiple sources - positioning you vs. competitors across key dimensions.
+
+## When to Use
+- Entering new market or launching product
+- Annual strategic planning
+- Preparing for investor/board meetings
+- Responding to competitive threats
+- Positioning and differentiation strategy
+- Sales enablement and competitive battle cards
+
+## How It Works
+Analyzes competitive information from provided files or web research to create:
+- **Competitive landscape** - Who's who in the market
+- **Feature/capability comparison** - Side-by-side matrix
+- **Positioning analysis** - How each player positions themselves
+- **Strengths & weaknesses** - SWOT for each competitor
+- **Strategic recommendations** - How to compete and win
+
+## Instructions
+
+Create a comprehensive competitive analysis following this framework:
+
+```markdown
+# Competitive Analysis: [Market/Category]
+
+**Analysis Date:** [Today]
+**Prepared For:** [Stakeholder]
+**Market Definition:** [What space you're analyzing]
+
+---
+
+## Executive Summary
+
+**Market Overview:**
+[2-3 sentences on market state, size, growth]
+
+**Competitive Intensity:** [High/Medium/Low]
+
+**Key Takeaway:**
+[Single most important insight about competitive landscape]
+
+---
+
+## Competitive Landscape
+
+**Market Leaders:**
+- [Company 1] - [Market share %] - [Key differentiator]
+- [Company 2] - [Market share %] - [Key differentiator]
+
+**Fast-Growing Challengers:**
+- [Company] - [Growth rate] - [Why they're gaining]
+
+**Niche Players:**
+- [Company] - [Their niche] - [Why they matter]
+
+**Our Position:**
+[Where we fit in this landscape]
+
+---
+
+## Competitive Matrix
+
+| | **Us** | **Competitor 1** | **Competitor 2** | **Competitor 3** |
+|---|---|---|---|---|
+| **Positioning** | [How we position] | [Their positioning] | [Their positioning] | [Their positioning] |
+| **Target Customer** | [Our ICP] | [Their ICP] | [Their ICP] | [Their ICP] |
+| **Pricing** | $X | $X | $X | $X |
+| **Key Features** | [Top 3] | [Top 3] | [Top 3] | [Top 3] |
+| **Strengths** | [Top 2] | [Top 2] | [Top 2] | [Top 2] |
+| **Weaknesses** | [Top 2] | [Top 2] | [Top 2] | [Top 2] |
+| **Market Share** | X% | X% | X% | X% |
+
+---
+
+## Detailed Competitor Profiles
+
+### Competitor 1: [Name]
+
+**Overview:**
+- Founded: [Year]
+- Headquarters: [Location]
+- Employees: [Count]
+- Funding: [Amount / Public]
+- Revenue: [Estimate if known]
+
+**Positioning & Messaging:**
+[How they position themselves - from their website/marketing]
+
+**Target Market:**
+- [Customer profile]
+- [Industries/segments]
+- [Company size focus]
+
+**Product/Service Offering:**
+- **Core offering:** [What they primarily sell]
+- **Key features:** [What they emphasize]
+- **Unique capabilities:** [What they do that others don't]
+
+**Pricing Strategy:**
+- **Model:** [Subscription/One-time/Usage-based]
+- **Entry price:** $X
+- **Enterprise price:** $X
+- **Positioning:** [Budget/Mid-market/Premium]
+
+**Go-to-Market Strategy:**
+- **Sales model:** [Direct/Partner/PLG]
+- **Marketing focus:** [Channels they emphasize]
+- **Customer acquisition:** [How they get customers]
+
+**Strengths:**
+1. [Strength with evidence]
+2. [Strength with evidence]
+3. [Strength with evidence]
+
+**Weaknesses:**
+1. [Weakness with evidence]
+2. [Weakness with evidence]
+3. [Weakness with evidence]
+
+**Recent Moves:**
+- [Recent product launch/acquisition/partnership]
+- [Strategic shift or announcement]
+
+**Customer Sentiment:**
+[What customers say - from reviews/feedback]
+
+---
+
+[Repeat for each major competitor]
+
+---
+
+## Feature Comparison Matrix
+
+| Feature/Capability | Importance | Us | Comp 1 | Comp 2 | Comp 3 |
+|-------------------|------------|-----|---------|---------|---------|
+| [Feature 1] | High | ✅ | ✅ | ❌ | ✅ |
+| [Feature 2] | High | ✅ | ❌ | ✅ | ✅ |
+| [Feature 3] | Medium | ❌ | ✅ | ✅ | ❌ |
+| [Feature 4] | Medium | ✅ | ✅ | ❌ | ✅ |
+| [Feature 5] | Low | ❌ | ❌ | ✅ | ✅ |
+
+**Key:**
+- ✅ = Strong capability
+- ⚠️ = Basic capability
+- ❌ = Not available
+- 🚧 = On roadmap
+
+---
+
+## Competitive Positioning Map
+
+```
+        Premium
+            |
+     Comp 2 | Us
+            |
+Simple -------|------- Full-Featured
+            |
+     Comp 1 | Comp 3
+            |
+        Budget
+```
+
+**Positioning Insights:**
+- [What this map reveals]
+- [Where the gaps are]
+- [Where competition is most intense]
+
+---
+
+## Strengths & Weaknesses vs. Competitors
+
+**Where We Win:**
+1. **[Differentiator 1]**
+   - **Our advantage:** [What we do better]
+   - **Proof points:** [Evidence]
+   - **Why it matters:** [Customer impact]
+
+2. **[Differentiator 2]**
+   [Repeat format]
+
+**Where We're at Risk:**
+1. **[Gap 1]**
+   - **Competitor advantage:** [Who does it better]
+   - **Impact:** [Why this matters]
+   - **Mitigation:** [How to address]
+
+2. **[Gap 2]**
+   [Repeat format]
+
+**Parity Areas:**
+[Where everyone is roughly equal - table stakes features]
+
+---
+
+## Competitive Threats & Opportunities
+
+**Immediate Threats:**
+- **[Threat 1]:** [Description + timeline + impact]
+- **[Threat 2]:** [Description + timeline + impact]
+
+**Emerging Opportunities:**
+- **[Opportunity 1]:** [What competitors are missing]
+- **[Opportunity 2]:** [Market gap we can exploit]
+
+**Market Trends:**
+- **[Trend 1]:** [How it affects competition]
+- **[Trend 2]:** [Who's positioned to benefit]
+
+---
+
+## Win/Loss Analysis
+
+**Why customers choose us:**
+1. [Reason + frequency]
+2. [Reason + frequency]
+
+**Why customers choose competitors:**
+1. [Competitor] - [Primary reason they win]
+2. [Competitor] - [Primary reason they win]
+
+**Common objections about us:**
+- [Objection] - **Counter:** [How to address]
+
+---
+
+## Strategic Recommendations
+
+### 1. Immediate Actions (Next 30 Days)
+- **[Action]:** [Why + expected impact]
+- **[Action]:** [Why + expected impact]
+
+### 2. Short-term Initiatives (Next Quarter)
+- **[Initiative]:** [Why this positions us better]
+- **[Initiative]:** [Why this positions us better]
+
+### 3. Long-term Strategic Moves (6-12 Months)
+- **[Strategic move]:** [How this changes competitive dynamics]
+
+---
+
+## Competitive Battle Cards
+
+### vs. [Competitor 1]
+
+**When you're competing against them:**
+
+**Lead with:**
+- [Your strength vs. their weakness]
+- [Your strength vs. their weakness]
+
+**Address concerns about:**
+- [Their strength] - **Counter:** [Your message]
+
+**Don't:**
+- [What not to say or do]
+
+**Winning messages:**
+> "[Quote that resonates with customers]"
+
+---
+
+[Create battle card for each major competitor]
+
+---
+
+## Market Gaps & White Space
+
+**Underserved Segments:**
+- [Segment] - **Opportunity:** [What they need that no one provides]
+
+**Feature Gaps:**
+- [Capability] - **No one does this well, but customers want it**
+
+**Positioning Gaps:**
+- [Position] - **No one owns this space yet**
+
+---
+
+## Monitoring Strategy
+
+**Metrics to Track:**
+- [Competitor] - [Specific metric + source]
+- [Market metric] - [How to measure]
+
+**Information Sources:**
+- Product: [Their website, releases, demos]
+- Marketing: [Their content, ads, messaging]
+- Customers: [Review sites, social media, win/loss]
+- News: [Press releases, funding, partnerships]
+
+**Review Cadence:**
+- **Monthly:** [Quick metrics check]
+- **Quarterly:** [Deep dive update]
+- **Annually:** [Full competitive reassessment]
+
+---
+
+## Appendix
+
+**Data Sources:**
+- [List all sources used]
+- [Research date for each]
+
+**Assumptions:**
+- [Key assumptions made in analysis]
+
+**Confidence Levels:**
+- High confidence: [What you know for sure]
+- Medium confidence: [What you're fairly certain about]
+- Low confidence: [What's estimated or inferred]
+```
+
+## Usage Examples
+
+**From Research Files:**
+```
+competitive-analysis @competitor-research/
+
+Focus on: Feature comparison and pricing
+```
+
+**From Web + Files:**
+```
+competitive-analysis
+
+Competitors: Planet Fitness, 24 Hour Fitness, LA Fitness, Orangetheory
+Sources: @research-files/ + web search
+Create full competitive analysis
+```
+
+**Quick Comparison:**
+```
+competitive-analysis --brief
+
+Compare: Our product vs. [Competitor A] vs. [Competitor B]
+Dimensions: Features, pricing, target market
+```
+
+**Battle Cards Only:**
+```
+competitive-analysis @competitor-data/
+
+Output: Just competitive battle cards for sales team
+Format: One-page per competitor
+```
+
+## Analysis Types
+
+**Strategic (Default):**
+Full analysis for leadership/planning
+
+**Sales Enablement:**
+Focus on battle cards and objection handling
+
+**Product Planning:**
+Feature gaps and roadmap implications
+
+**Investor/Board:**
+Market position and growth opportunities
+
+## Tips for Best Results
+
+1. **Be objective** - Acknowledge where competitors are strong
+2. **Use recent data** - Competitive landscape changes fast
+3. **Include proof** - Cite sources for claims
+4. **Focus on what matters** - Not every difference is meaningful
+5. **Make it actionable** - Analysis should inform strategy
+
+## Output
+A comprehensive competitive analysis that helps you understand the landscape, position effectively, and compete strategically.

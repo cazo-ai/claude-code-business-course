@@ -1,0 +1,94 @@
+# Skill: Email Draft from Notes
+
+## What This Does
+Creates professional, well-structured emails from bullet points, rough notes, or verbal descriptions.
+
+## When to Use
+- Need to send an important email but don't want to spend 30 minutes writing it
+- Have key points but struggle with professional tone
+- Want to ensure proper email structure
+- Need to communicate clearly with stakeholders
+
+## How It Works
+Takes your rough thoughts or bullet points and creates a polished, professional email with:
+- **Clear subject line**
+- **Appropriate greeting**
+- **Well-structured body**
+- **Professional tone**
+- **Clear call-to-action**
+- **Proper sign-off**
+
+## Instructions
+
+Based on the provided notes or context, draft a professional email following these guidelines:
+
+### Structure:
+```markdown
+**Subject:** [Clear, specific subject line - no "Update" or "Quick question"]
+
+[Greeting appropriate to relationship with recipient]
+
+[Opening paragraph - Context/purpose in 1-2 sentences]
+
+[Main content - organized by topic/priority]
+
+[Closing paragraph - Clear next steps or call-to-action]
+
+[Professional sign-off]
+```
+
+### Tone Guidelines:
+- **Professional but warm** - Not stiff or overly formal
+- **Clear and concise** - Respect recipient's time
+- **Action-oriented** - Make next steps obvious
+- **Confident but not presumptuous**
+
+### Key Principles:
+1. **Front-load importance** - Most critical info in first paragraph
+2. **Use formatting** - Bullets, bold, sections for scannability
+3. **One ask per email** - Don't bury multiple requests
+4. **Be specific** - "Let's meet Tuesday 2pm" not "Let's meet sometime"
+5. **End with clarity** - Recipient knows exactly what to do next
+
+### Adapt Tone Based On:
+- **Relationship:** Colleague vs. executive vs. client vs. vendor
+- **Context:** Good news vs. bad news vs. request vs. update
+- **Urgency:** Time-sensitive vs. FYI
+- **Formality:** Startup culture vs. corporate environment
+
+## Usage Example
+
+**Option 1 - From File:**
+```
+email-draft @update-notes.md
+
+Context: Sending to my manager about project delay
+Tone: Professional but honest
+```
+
+**Option 2 - From Description:**
+```
+email-draft
+
+I need to email the client about:
+- Project is 2 weeks behind schedule
+- Due to unexpected technical issues
+- We have a plan to get back on track
+- Need their approval for revised timeline
+
+Tone: Apologetic but confident in solution
+```
+
+**Option 3 - Quick Email:**
+```
+email-draft to Sarah about pushing Friday's meeting to Monday because I need more time to prepare the slides
+```
+
+## Output
+A complete, ready-to-send email that you can copy-paste or adjust as needed. The email will match the context and tone you specified.
+
+## Tips
+- **Be specific about recipient and context** - Helps me match the right tone
+- **Mention any sensitive topics** - I'll handle them appropriately
+- **Specify length preference** - Short update vs. detailed explanation
+- **Note any required elements** - Attachments, CC list, specific asks

@@ -1,0 +1,89 @@
+# Skill: Meeting Notes to Action Items
+
+## What This Does
+Converts messy, unstructured meeting notes into organized action items with clear owners and deadlines.
+
+## When to Use
+- After any meeting or call
+- When inheriting someone else's notes
+- To create follow-up task lists
+- To extract decisions from rambling notes
+
+## How It Works
+This skill analyzes meeting notes and extracts:
+- **Action items** - What needs to be done
+- **Owners** - Who's responsible
+- **Deadlines** - When it's due
+- **Decisions made** - Key outcomes
+- **Follow-ups** - Next steps
+
+## Instructions
+
+Read the provided meeting notes file and create a structured document with:
+
+### Format:
+```markdown
+# Meeting Summary
+
+**Date:** [Extract or note as unclear]
+**Attendees:** [Extract if mentioned]
+
+## Key Decisions
+- [List major decisions made]
+
+## Action Items
+
+### High Priority
+- [ ] [Action item] - **Owner:** [Name] - **Due:** [Date]
+
+### Medium Priority
+- [ ] [Action item] - **Owner:** [Name] - **Due:** [Date]
+
+### Low Priority / Follow-up
+- [ ] [Action item] - **Owner:** [Name] - **Due:** [Date]
+
+## Open Questions
+- [List unresolved questions or items needing clarification]
+
+## Next Meeting
+**When:** [Extract if mentioned]
+**Agenda:** [What needs to be discussed]
+```
+
+### Guidelines:
+1. **Extract, don't invent** - Only include information that's in the notes
+2. **Infer priority** from context (words like "urgent", "ASAP", "important")
+3. **Mark unclear items** - If owner or deadline isn't clear, note it
+4. **Group related items** - Combine similar actions
+5. **Be concise** - Action items should be specific and actionable
+
+### Example Input:
+"Had a call with Sarah and Mike today. We need to update the pricing page by Friday, Sarah's handling that. Also Mike mentioned we should reach out to those 3 leads from last week. I'll do that tomorrow. Still not sure about the Q4 budget - need to check with finance team."
+
+### Example Output:
+```markdown
+## Action Items
+
+### High Priority
+- [ ] Update pricing page - **Owner:** Sarah - **Due:** Friday
+
+### Medium Priority
+- [ ] Reach out to 3 leads from last week - **Owner:** [Note taker] - **Due:** Tomorrow
+
+## Open Questions
+- Q4 budget approval - Need to check with finance team
+```
+
+## Usage Example
+```
+meeting-notes @project-sync-notes.md
+```
+
+Or provide notes directly:
+```
+meeting-notes
+
+[Then paste or describe your meeting notes]
+```
+
+The output will be a clean, organized action items document ready to share with your team.

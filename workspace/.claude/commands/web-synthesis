@@ -1,0 +1,164 @@
+# Skill: Web Research Synthesis
+
+## What This Does
+Conducts web research on any topic and creates a structured, actionable summary with sources.
+
+## When to Use
+- Need quick research on a topic
+- Competitive analysis from public sources
+- Industry trends and best practices
+- Market research for a new initiative
+- Fact-checking or validation
+- Learning about unfamiliar topics
+
+## How It Works
+1. Searches the web for relevant, current information
+2. Synthesizes findings from multiple sources
+3. Organizes insights into structured format
+4. Provides actionable takeaways
+5. Cites all sources
+
+## Instructions
+
+When a user requests web research, follow this process:
+
+### Step 1: Search Strategy
+- Identify 3-5 specific search queries
+- Focus on recent information (current year when relevant)
+- Include industry-specific sources
+- Look for data, not just opinions
+
+### Step 2: Synthesis
+Create a structured research summary:
+
+```markdown
+# Research Summary: [Topic]
+
+**Research Date:** [Today's date]
+**Research Focus:** [What you were asked to find]
+
+## Executive Summary
+[2-3 sentences: Most important finding + why it matters]
+
+## Key Findings
+
+### 1. [Finding Title]
+**What we learned:** [Clear statement]
+**Why it matters:** [Business implication]
+**Source:** [Source with credibility indicator]
+
+### 2. [Finding Title]
+[Repeat format]
+
+[Continue for 5-7 key findings]
+
+## Industry Context
+- **Current state:** [Overview of landscape]
+- **Trends:** [What's changing]
+- **Challenges:** [Common pain points]
+
+## Competitive Landscape (if applicable)
+- **Leader:** [Who's winning + why]
+- **Innovators:** [Who's doing interesting things]
+- **Gaps:** [Opportunities in market]
+
+## Best Practices
+1. [Practice with brief explanation]
+2. [Practice with brief explanation]
+3. [Practice with brief explanation]
+
+## Actionable Insights
+- **Immediate:** [What to do now]
+- **Short-term:** [What to plan for]
+- **Watch:** [What to monitor]
+
+## Data Points
+- [Key statistic + source]
+- [Key statistic + source]
+- [Key statistic + source]
+
+## Sources
+1. [Source 1 - full citation]
+2. [Source 2 - full citation]
+[List all sources used]
+
+## Research Gaps
+[What we couldn't find / areas needing deeper investigation]
+```
+
+### Quality Guidelines:
+1. **Prioritize credibility** - Industry reports > blogs
+2. **Be current** - Favor recent sources (especially for trends)
+3. **Show sources** - Always cite where information came from
+4. **Balance breadth and depth** - Cover topic comprehensively but stay focused
+5. **Make it actionable** - Don't just inform, enable decisions
+
+### Research Types:
+
+**Competitive Analysis:**
+Focus on: competitors, market share, strategies, differentiators
+
+**Trend Research:**
+Focus on: emerging patterns, predictions, market shifts
+
+**Best Practices:**
+Focus on: what works, case studies, frameworks
+
+**Market Research:**
+Focus on: market size, segments, buyer behavior
+
+## Usage Examples
+
+**Basic Research:**
+```
+web-synthesis "customer loyalty programs best practices 2026"
+```
+
+**Competitive Focus:**
+```
+web-synthesis "Planet Fitness vs 24 Hour Fitness marketing strategies"
+```
+
+**Trend Analysis:**
+```
+web-synthesis "fitness app trends" --focus on gamification and personalization
+```
+
+**With Specific Questions:**
+```
+web-synthesis
+
+Topic: Gym member retention strategies
+Specific questions:
+- What retention rate is considered good?
+- What tactics work best?
+- Common mistakes to avoid?
+```
+
+**Industry-Specific:**
+```
+web-synthesis "SaaS pricing models 2026" --industry B2B software
+```
+
+## Output Format Options
+
+**Standard Report (Default):**
+Full synthesis with all sections
+
+**Executive Brief:**
+Just summary + top 5 findings + sources
+
+**Data Sheet:**
+Focus on statistics and data points
+
+**Competitive Matrix:**
+Side-by-side comparison format
+
+## Tips for Best Results
+- **Be specific** - "Customer retention tactics" vs. "How to keep customers"
+- **Mention industry** if relevant - Results will be more targeted
+- **State your use case** - Helps me prioritize what's relevant
+- **Ask follow-up questions** - Dig deeper into specific findings
+
+## Output
+A comprehensive yet concise research document that saves you hours of googling, reading, and synthesizing.

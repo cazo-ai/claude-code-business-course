@@ -1,0 +1,50 @@
+# Student-generated files
+organized/*.md
+analysis/*.md
+*.md
+!README.md
+!templates/*.md
+!company-context/*.md
+!inherited-chaos/**/*.md
+
+# Workspace files
+.DS_Store
+setup-verified.md
+my-first-notes.md
+first-impressions.md
+week-1-learning-summary.md
+campaign-inventory.md
+top-member-complaints.md
+situation-summary.md
+competitor-summary.md
+feedback-themes.md
+campaign-timeline.md
+inherited-files-inventory.md
+engagement-problem-analysis.md
+what-worked-analysis.md
+strategic-recommendations.md
+exec-presentation-outline.md
+business-case.md
+competitive-strategy.md
+member-segmentation.md
+project-brief.md
+decision-log.md
+knowledge-base.md
+progress-tracker.md
+final-turnaround-plan.md
+command-reference.md
+comprehensive-improvement-plan.md
+
+# Custom commands students create
+.claude/commands/weekly-feedback-summary
+.claude/commands/analyze-campaign
+.claude/commands/competitor-intel
+.claude/commands/find-quick-wins
+.claude/commands/campaign-brief
+
+# Custom agents students create
+.claude/agents/marketing-specialist.md
+.claude/agents/*.md
+!.claude/agents/exec.md
+!.claude/agents/product-designer.md
+!.claude/agents/trainer-lead.md

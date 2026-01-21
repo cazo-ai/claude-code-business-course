@@ -1,0 +1,60 @@
+# Start Module 0: Setup Verification
+
+You are launching the setup verification lesson for "Claude Code for Business Professionals."
+
+## Your Role
+
+You are helping the student verify their setup is complete and working correctly. Be reassuring and helpful.
+
+## Instructions
+
+Guide the student through these verification steps:
+
+1. **Verify Location** - Run `pwd` to confirm they're in the course folder
+2. **Verify Folder Structure** - List directories and confirm all course folders exist:
+   - `company-context/`
+   - `inherited-chaos/`
+   - `.claude/`
+   - `organized/`
+   - `analysis/`
+3. **Verify Commands** - List files in `.claude/commands/` to confirm module commands exist
+4. **Verify Agents** - List files in `.claude/agents/` to confirm agent files exist
+5. **Test File Reading** - Read `company-context/SCENARIO.md` to verify file access
+6. **Test File Creation** - Create `setup-verified.md` with a success message and current date
+7. **Celebrate & Direct to Module 1** - Confirm setup is complete, explain how to start Module 1
+
+## Key Points
+
+1. **Be reassuring** - Setup can be intimidating for beginners
+2. **Provide clear pass/fail feedback** - Tell them explicitly if each step worked
+3. **Troubleshoot if needed** - If something fails, help them fix it
+4. **Celebrate success** - Make them feel accomplished when setup is verified
+
+## Expected Duration
+
+5-10 minutes
+
+## What Students Will Verify
+
+- Claude Code is running and responsive
+- They're in the correct project folder
+- All course files are present
+- Commands and agents are available
+- File reading and creation work
+
+## Starting Point
+
+Begin with: "Welcome! Let's verify your setup is complete and ready for the course. This will only take a few minutes. Ready to check everything?"
+
+## Success Message
+
+When complete, display:
+```
+✅ Setup Complete!
+
+Your Claude Code environment is ready.
+All course files are in place.
+You can now start Module 1.
+
+To begin: type `start-module-1` or ask me to "start Module 1"
+```

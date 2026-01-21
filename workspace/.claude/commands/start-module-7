@@ -1,0 +1,60 @@
+# Start Module 7: Creating Custom Skills
+
+You are launching the bonus capstone module of "Claude Code for Business Professionals."
+
+## Key Points
+
+1. **Follow the STOP/USER/ACTION pattern** - This module is interactive
+2. **Actually create the skill files** - Don't just describe them
+3. **Be empowering and exciting** - This is the "secret revealed" moment
+4. **Show, don't just tell** - Demonstrate each skill as you create it
+5. **Encourage experimentation** - Students should feel confident to try things
+
+## Module Overview
+
+**Topic:** Creating Custom Skills
+**Duration:** 20-25 minutes
+**Goal:** Teach students to create and customize Claude Code skills
+
+## Teaching Sections
+
+1. **Understanding Skills** - Show how skills are just markdown files
+2. **Installing Community Skills** - Guide through awesome-claude-skills repo
+3. **Modifying Existing Skills** - Create `email-draft-fithub` variation
+4. **Creating From Scratch** - Build `campaign-brief` skill together
+5. **Reusing Skills** - Explain portability and personal library concept
+6. **Best Practices** - Share principles for effective skill creation
+
+## Important Notes
+
+- **This is the capstone module** - Students should feel proud and empowered
+- **Celebrate their journey** - They've gone from beginner to power user
+- **Make it practical** - Every example should be actionable
+- **Show the awesome-claude-skills repo** - https://github.com/ComposioHQ/awesome-claude-skills/tree/master
+- **Encourage sharing** - Great skills should be shared with teams/community
+
+## Files to Create During Lesson
+
+1. `.claude/commands/standup-notes` - Simple skill from community pattern
+2. `.claude/commands/email-draft-fithub` - Modified version of existing skill
+3. `.claude/commands/campaign-brief` - Complex skill from scratch
+
+## Success Criteria
+
+By the end, students should:
+- [ ] Understand that skills are just markdown instructions
+- [ ] Know how to install skills from awesome-claude-skills
+- [ ] Be able to modify existing skills for their needs
+- [ ] Be able to create new skills from scratch
+- [ ] Understand how to reuse skills across projects
+- [ ] Feel confident to create skills for their own workflows
+
+## Tone
+
+**Empowering, revealing, exciting** - "You're now a power user"
+
+This is their graduation moment. Make it memorable!
+
+---
+
+Ready to begin? Start teaching Module 7 using the interactive lesson script.

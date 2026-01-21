@@ -1,0 +1,130 @@
+# Skill: Deep Folder Analysis
+
+## What This Does
+Provides comprehensive analysis of any folder's contents - understanding themes, finding patterns, identifying key information across multiple files.
+
+## When to Use
+- Inheriting a project or folder from someone else
+- Need to understand a complex folder structure quickly
+- Looking for patterns across many documents
+- Creating executive summary of project status
+- Onboarding to new work area
+
+## How It Works
+Reads all files in a folder (or recursively through subfolders) and provides:
+- **Content overview** - What types of information exist
+- **Key themes** - Patterns across documents
+- **Important findings** - Critical information surfaced
+- **Data quality** - Gaps, inconsistencies, or issues
+- **Recommendations** - Suggested actions or next steps
+
+## Instructions
+
+When a user provides a folder path, perform this analysis:
+
+### Step 1: Inventory
+- List all files and subfolders
+- Identify file types and purposes
+- Note file dates/recency where relevant
+
+### Step 2: Content Analysis
+Read and analyze files to identify:
+- **Main themes** - What topics/issues appear repeatedly
+- **Key data points** - Metrics, dates, names, decisions
+- **Document purposes** - Strategy docs vs. data vs. notes vs. drafts
+- **Relationships** - How files connect to each other
+
+### Step 3: Synthesis
+Create a structured summary:
+
+```markdown
+# Folder Analysis: [Folder Name]
+
+## Overview
+- **File count:** X files in Y folders
+- **Date range:** [Oldest to newest]
+- **Primary content type:** [Documents/Data/Mixed]
+
+## Key Findings
+
+### 1. [Most Important Finding]
+- Evidence: [Which files]
+- Significance: [Why it matters]
+
+### 2. [Second Finding]
+- Evidence: [Which files]
+- Significance: [Why it matters]
+
+[Continue for 3-5 key findings]
+
+## Themes Across Files
+- **[Theme 1]:** Appears in [X] files - [Description]
+- **[Theme 2]:** Appears in [X] files - [Description]
+
+## Critical Information
+- **Decisions made:** [List]
+- **Open questions:** [List]
+- **Action items:** [List]
+- **Key metrics:** [List]
+
+## Data Quality Assessment
+- **Complete:** [What's well-documented]
+- **Gaps:** [What's missing]
+- **Inconsistencies:** [Conflicts between files]
+
+## Recommendations
+1. [Immediate action needed]
+2. [Follow-up investigation suggested]
+3. [Organization improvements]
+```
+
+### Analysis Depth Levels:
+
+**Quick Scan (Default):**
+- Read all files
+- Identify main themes
+- Surface critical information
+
+**Deep Dive (if user requests):**
+- Detailed analysis of each file
+- Cross-reference information
+- Timeline reconstruction
+- Stakeholder mapping
+
+**Executive Summary (if user requests):**
+- 1-page overview only
+- Top 3 findings
+- Recommended next steps
+
+## Usage Examples
+
+**Basic Analysis:**
+```
+analyze-folder @project-files/
+```
+
+**Deep Analysis:**
+```
+analyze-folder @inherited-chaos/ --depth deep
+```
+
+**With Specific Focus:**
+```
+analyze-folder @customer-data/
+
+Focus on: What are customers saying about pricing?
+```
+
+**Executive Summary:**
+```
+analyze-folder @q3-reports/ --format executive
+```
+
+## Tips for Best Results
+- **Specify what you're looking for** if you have specific questions
+- **Mention context** if relevant (e.g., "I just inherited this project")
+- **Request depth** - Quick overview vs. thorough analysis
+- **Note time constraints** - "I have 5 minutes" vs. "I need comprehensive understanding"
+
+## Output
+A structured analysis document that gives you situational awareness of the folder's contents without having to read every file manually.

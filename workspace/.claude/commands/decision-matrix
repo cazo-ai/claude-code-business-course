@@ -1,0 +1,274 @@
+# Skill: Decision Matrix
+
+## What This Does
+Creates structured decision analysis frameworks to help you make data-driven choices between multiple options.
+
+## When to Use
+- Choosing between 2+ alternatives
+- Need objective evaluation framework
+- Stakeholders disagree on direction
+- High-stakes decisions requiring documentation
+- When gut feeling isn't enough
+- Want to defend your choice with data
+
+## How It Works
+Analyzes your options against weighted criteria and creates:
+- **Structured comparison** - Apples-to-apples evaluation
+- **Scoring framework** - Objective ranking
+- **Pros/cons analysis** - Clear trade-offs
+- **Recommendation** - Data-backed choice
+- **Risk assessment** - What could go wrong
+
+## Instructions
+
+When helping with a decision, create this comprehensive analysis:
+
+```markdown
+# Decision Analysis: [Decision Name]
+
+**Decision Needed:** [What you're deciding]
+**Decision Maker:** [Who's deciding]
+**Decision Date:** [When decision must be made]
+**Impact:** [High/Medium/Low]
+
+---
+
+## Decision Context
+
+**Current Situation:**
+[2-3 sentences explaining why this decision is needed now]
+
+**Constraints:**
+- Budget: [Amount]
+- Timeline: [When needed]
+- Resources: [What's available]
+- Other: [Any other limitations]
+
+**Success Criteria:**
+[What "good" looks like for this decision]
+
+---
+
+## Options Being Considered
+
+### Option 1: [Name]
+**Description:** [What this entails]
+**Cost:** [Estimate]
+**Timeline:** [How long to implement]
+
+### Option 2: [Name]
+**Description:** [What this entails]
+**Cost:** [Estimate]
+**Timeline:** [How long to implement]
+
+### Option 3: [Name] (if applicable)
+[Repeat format]
+
+---
+
+## Decision Criteria
+
+[List what matters for this decision]
+
+| Criterion | Weight | Why It Matters |
+|-----------|--------|----------------|
+| [Criterion 1] | 30% | [Explanation] |
+| [Criterion 2] | 25% | [Explanation] |
+| [Criterion 3] | 20% | [Explanation] |
+| [Criterion 4] | 15% | [Explanation] |
+| [Criterion 5] | 10% | [Explanation] |
+| **Total** | **100%** | |
+
+---
+
+## Scoring Matrix
+
+| Criterion | Weight | Option 1 | Option 2 | Option 3 |
+|-----------|--------|----------|----------|----------|
+| [Criterion 1] | 30% | 7/10 (2.1) | 5/10 (1.5) | 9/10 (2.7) |
+| [Criterion 2] | 25% | 8/10 (2.0) | 9/10 (2.25) | 6/10 (1.5) |
+| [Criterion 3] | 20% | 6/10 (1.2) | 8/10 (1.6) | 7/10 (1.4) |
+| [Criterion 4] | 15% | 9/10 (1.35) | 7/10 (1.05) | 8/10 (1.2) |
+| [Criterion 5] | 10% | 5/10 (0.5) | 6/10 (0.6) | 8/10 (0.8) |
+| **TOTAL SCORE** | | **7.15** | **7.0** | **7.6** |
+| **RANK** | | #2 | #3 | #1 |
+
+*Scoring: 1-10 scale where 10 = best, 1 = worst*
+
+---
+
+## Detailed Analysis by Option
+
+### Option 1: [Name] (Score: 7.15)
+
+**Strengths:**
+- [Strength with evidence]
+- [Strength with evidence]
+
+**Weaknesses:**
+- [Weakness with impact]
+- [Weakness with impact]
+
+**Best For:** [What scenario makes this the right choice]
+
+**Deal-breakers:** [Any show-stoppers]
+
+---
+
+### Option 2: [Name] (Score: 7.0)
+[Repeat format]
+
+---
+
+### Option 3: [Name] (Score: 7.6)
+[Repeat format]
+
+---
+
+## Risk Assessment
+
+| Option | Primary Risk | Likelihood | Impact | Mitigation |
+|--------|--------------|------------|--------|------------|
+| Option 1 | [Risk] | High/Med/Low | High/Med/Low | [How to address] |
+| Option 2 | [Risk] | High/Med/Low | High/Med/Low | [How to address] |
+| Option 3 | [Risk] | High/Med/Low | High/Med/Low | [How to address] |
+
+---
+
+## Financial Comparison
+
+| Factor | Option 1 | Option 2 | Option 3 |
+|--------|----------|----------|----------|
+| **Upfront Cost** | $X | $X | $X |
+| **Ongoing Cost** | $X/mo | $X/mo | $X/mo |
+| **ROI Timeline** | X months | X months | X months |
+| **3-Year TCO** | $X | $X | $X |
+
+---
+
+## Timeline Comparison
+
+| Milestone | Option 1 | Option 2 | Option 3 |
+|-----------|----------|----------|----------|
+| **Start** | [Date] | [Date] | [Date] |
+| **Key Milestone** | [Date] | [Date] | [Date] |
+| **Completion** | [Date] | [Date] | [Date] |
+| **Time to Value** | X weeks | X weeks | X weeks |
+
+---
+
+## Recommendation
+
+**Recommended Option: [Option Name]**
+
+**Reasoning:**
+1. [Data-backed reason from scoring]
+2. [Data-backed reason from analysis]
+3. [Data-backed reason considering constraints]
+
+**Confidence Level:** [High/Medium/Low]
+- High: Clear winner based on criteria
+- Medium: Close call, situational factors matter
+- Low: All options have significant trade-offs
+
+**Key Assumptions:**
+- [Assumption that could change recommendation]
+- [Assumption that could change recommendation]
+
+**If we're wrong:**
+[What signal would indicate we need to pivot]
+
+---
+
+## Alternative Scenarios
+
+**If budget weren't a constraint:** [What would you choose]
+
+**If timeline were shorter:** [How would that change things]
+
+**If [key criterion] mattered more:** [Impact on decision]
+
+---
+
+## Implementation Plan (for recommended option)
+
+**Immediate Next Steps:**
+1. [Action + owner + date]
+2. [Action + owner + date]
+
+**Success Metrics:**
+- [How we'll know it's working]
+- [When we'll evaluate]
+
+**Decision Review Date:**
+[When to reassess this decision]
+
+---
+
+## Appendix: Rejected Options
+
+**Options not analyzed:**
+- [Option] - **Why rejected:** [Reason]
+- [Option] - **Why rejected:** [Reason]
+```
+
+## Usage Examples
+
+**Simple Decision:**
+```
+decision-matrix
+
+Should we:
+A) Build in-house
+B) Buy off-the-shelf
+C) Hire agency
+
+Criteria: Cost, time, quality, maintenance
+```
+
+**Complex Decision:**
+```
+decision-matrix @analysis-docs/
+
+Decision: Which market to enter next
+Options: Market A, Market B, Market C
+Weighted criteria: Market size, competition, fit with capabilities
+```
+
+**With Context:**
+```
+decision-matrix
+
+Context: Need to choose project management tool
+Budget: $10K/year
+Team size: 25 people
+Must integrate with: Slack, Google Workspace
+
+Options: Asana, Monday.com, ClickUp
+```
+
+## Decision Types
+
+**Build vs. Buy:**
+Focus on: TCO, time-to-market, capability, maintenance
+
+**Hire vs. Outsource:**
+Focus on: Cost, quality, control, flexibility
+
+**Priority Ranking:**
+Focus on: Impact, effort, dependencies, risk
+
+**Strategic Direction:**
+Focus on: Alignment, resources, market fit, risk
+
+## Tips for Best Results
+
+1. **Define criteria first** - What really matters for this decision?
+2. **Weight honestly** - Don't make everything equal importance
+3. **Be objective** - Score based on data, not preference
+4. **Consider context** - Budget, timeline, constraints matter
+5. **Document assumptions** - What you believe to be true
+6. **Plan for wrong** - How you'll know if you need to pivot
+
+## Output
+A comprehensive decision framework that removes emotion, provides structure, and gives you confidence (and documentation) for your choice.
