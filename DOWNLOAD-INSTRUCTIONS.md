@@ -44,8 +44,8 @@ You have two options to download the course materials. Choose whichever is easie
 
 3. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/claude-code-course.git
-   cd claude-code-course
+   git clone https://github.com/cazo-ai/claude-code-business-course.git
+   cd claude-code-business-course
    ```
 
 4. **You're ready!**
@@ -120,7 +120,7 @@ start-module-1
 After downloading, you'll have this structure:
 
 ```
-📦 claude-code-course/          (or whatever you named it)
+📦 claude-code-business-course/          (or whatever you named it)
 │
 ├── 📄 README.md               ← Start here
 ├── 📄 DOWNLOAD-INSTRUCTIONS.md ← This file
