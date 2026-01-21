@@ -19,7 +19,7 @@ You have two options to download the course materials. Choose whichever is easie
    - **Mac:** Double-click the ZIP file (it extracts automatically)
 
 3. **Remember where you extracted it**
-   - You'll need to open the `workspace` folder in Cursor later
+   - You'll need to open the `workspace` folder in VS Code or Cursor later
 
 4. **You're ready!**
    - Continue to the [Getting Started](#getting-started) section below
